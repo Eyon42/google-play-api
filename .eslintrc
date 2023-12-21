@@ -8,6 +8,8 @@
   "plugins": ["standard"],
   "rules": {
     "no-unused-vars": [2, { "vars": "all", "args": "after-used" }],
-    "quotes": [2, "double"]
+    "quotes": [2, "double"],
+    "comma-dangle": [2, "always-multiline"],
+    "spaced-comment": [1, "always"]
   }
 }
